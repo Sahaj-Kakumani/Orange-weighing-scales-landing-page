@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background: #222;
+  font-weight: 300;
+}
+
+/* Navigation Styling */
+.nav {
+  background: #55d6aa;
+  /* position: fixed; */
+}
+
+.nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  font-family: "JetBrains Mono", monospace;
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 10px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+}
+
+/* Main */
+.btn {
+  font-size: 20px;
+  border-radius: 100px;
+  padding: 5px;
+  font-family: "JetBrains Mono", monospace;
+  width: 200px;
+  border: #55d6aa solid 2px;
+  background-color: #222;
+  color: whitesmoke;
+
+  transition: font-family 2s, background-color 2s, border-radius 1s;
+}
+
+.btn:hover {
+  background-color: #55d6aa;
+  font-family: "Send Flowers", cursive;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.img {
+  height: 500px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #55d6aa;
+}
+
+::selection {
+  color: black;
+  background: #55d6aa;
+}
+
+/* Products Page */
+
+.product-category {
+  font-size: 30px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Send Flowers", cursive;
+  padding: 20px;
+}
+
+.img-wrapper {
+  text-align: center;
+}
